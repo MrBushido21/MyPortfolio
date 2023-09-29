@@ -1,0 +1,29 @@
+.projects {
+    padding: 30px;
+
+    .grid-container {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    &__card {
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+        min-height: 300px;
+        padding: 5px;
+
+        &:hover {
+            box-shadow: 1px 1px 5px;
+            border-radius: 4px;
+        }   
+    }
+
+    &__nav-link {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-bottom: 30px; 
+    }
+}

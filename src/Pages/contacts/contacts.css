@@ -1,0 +1,18 @@
+.Contacts {
+  padding: 100px 0;
+}
+.Contacts .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Contacts .container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Contacts .container div {
+  font-size: 18px;
+}
