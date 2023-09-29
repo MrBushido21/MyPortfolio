@@ -10,9 +10,9 @@ export const Footer = ({ }: PropsType) => {
             <div className="container">
                 <div className="footer__wrapper">
                     <ul className="social">
-                        <li className="social__item"><a href="#!"><img src={gitSVG} alt="Link" /></a></li>
-                        <li className="social__item"><a href="#!"><img src={linkSVG} alt="Link" /></a></li>
-                        <li className="social__item"><a href="#!"><img src={telega} alt="Link" /></a></li>
+                        <li className="social__item"><a href="https://github.com/MrBushido21"><img src={gitSVG} alt="Link" /></a></li>
+                        <li className="social__item"><a href="https://www.linkedin.com/in/oleg-liskovsky/"><img src={linkSVG} alt="Link" /></a></li>
+                        <li className="social__item"><a href="https://t.me/FrontEndDev21"><img src={telega} alt="Link" /></a></li>
                     </ul>
                     <div className="text-slate-50 text-center mt-6">
                         <p>© 2023 frontend-dev.com</p>
