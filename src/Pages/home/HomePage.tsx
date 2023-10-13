@@ -8,8 +8,8 @@ export const HomePage = ({ }: PropsType) => {
                     <div className='about__bg text-slate-50 text-center'>
                         <h1 className='font-bold text-5xl'>Hi, my name is Oleg</h1>
                         <h2 className='font-bold text-3xl mt-3 mb-6'>I`m frontend developer</h2>
-                        <a className='button-cv' href="../../download/resume.pdf" download="">Download CV</a>
                     </div>
+                    <p className="text-slate-50 text-center text-xl mb-6">I've been doing front-end development for over 1 year, and during this time I've made more than 10 projects, 6 of which were using react, and the rest were html coding. About me, I'm responsible, sociable and not conflicted. I don't like to praise myself, so it's better to look at my projects and evaluate them yourself, thank you for your attention</p>
                 </div>
             </section>
             <section className='skills mt-24 bg-slate-50 py-14 dark:bg-zinc-950'>
