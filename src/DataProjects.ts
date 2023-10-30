@@ -7,6 +7,7 @@ import photosImg from './img/photos-img.png'
 import socialNetImg from './img/social-network.png'
 import storeImg from './img/store-app.png'
 import todolist from './img/todolist.png'
+import tiktok from './img/tiktok.png'
 
 type DataProjectsType = {
     to: string
@@ -21,6 +22,7 @@ export const dataProjects: DataProjectsType[] = [
     {to: "photos", src: photosImg, title: "Photos App"},
 ]
 export const dataProjectsLink: DataProjectsType[] = [
+    {to: "https://tok-tok-app.vercel.app/", src: tiktok, title: "TOK TOK"},
     {to: "https://stuff-store-app.vercel.app", src: stuffImg, title: "eCommerce App"},
     {to: "https://haki-anime-app.vercel.app", src: animeSite, title: "Anime site"},
     {to: "https://mrbushido21.github.io/demo-social-app", src: socialNetImg, title: "Social Network App" },

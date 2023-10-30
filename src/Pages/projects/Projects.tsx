@@ -15,19 +15,19 @@ export const Projects = ({ }: PropsType) => {
         <div className='projects container'>
             <h2 className='text-center font-bold text-3xl mb-12'>React project</h2>
             <Grid className='grid-container' container >
+                 {projectsLink.map(project =>
+                    <Grid className='projects__card dark: bg-slate-50' item xs={12} sm={5} md={4} lg={3}>
+                        <a className="projects__nav-link" target='_blank' href={project.to}>
+                            <img className='projects__img' src={project.src} alt="" />
+                        </a>
+                        <span>{project.title}</span>
+                    </Grid>
+                )}
                 {projects.map(project =>
                     <Grid className='projects__card dark: bg-slate-50' item xs={12} sm={5} md={4} lg={3}>
                         <Link className="projects__nav-link" to={project.to}>
                             <img className='projects__img' src={project.src} alt="" />
                         </Link>
-                        <span>{project.title}</span>
-                    </Grid>
-                )}
-                {projectsLink.map(project =>
-                    <Grid className='projects__card dark: bg-slate-50' item xs={12} sm={5} md={4} lg={3}>
-                        <a className="projects__nav-link" target='_blank' href={project.to}>
-                            <img className='projects__img' src={project.src} alt="" />
-                        </a>
                         <span>{project.title}</span>
                     </Grid>
                 )}
