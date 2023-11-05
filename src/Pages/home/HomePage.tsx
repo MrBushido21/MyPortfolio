@@ -32,6 +32,8 @@ export const HomePage = ({ }: PropsType) => {
                                 <li className='title-li'>Frontend Dev:</li>
                                 <li className='li'>React</li>
                                 <li className='li'>Redux</li>
+                                <li className='li'>Redux Toolkit</li>
+                                <li className='li'>React Query</li>
                                 <li className='li'>TypeScripts</li>
                                 <li className='li'>Axios</li>
                                 <li className='li'>React router</li>
